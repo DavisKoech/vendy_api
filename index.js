@@ -36,7 +36,7 @@ const connect = async () => {
 
 //middlewares
 app.use(express.json())
-app.use(cors({origin: ["https://vendy.co.ke","http://vendy.co.ke","http://localhost:5173","http://localhost:5174","https://vendyadmin.netlify.app"],credentials: true}));
+app.use(cors({origin: ["https://vendy.co.ke","https://vendywebsite.netlify.app","http://localhost:5173","http://localhost:5174","https://vendyad.netlify.app"],credentials: true}));
 app.use(helmet())
 app.use(morgan("common"))
 
